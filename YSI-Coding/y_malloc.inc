@@ -124,11 +124,11 @@ Operators:
 	#error YSI_MALLOC_SECURE has been removed.
 #endif
 
-#include "..\YSI-Internal\y_version"
-#include "..\YSI-Internal\y_funcinc"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Storage\y_amx"
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Internal\y_version"
+#include "..\YSI_Internal\y_funcinc"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Storage\y_amx"
+#include "..\YSI_Core\y_utils"
 
 #include "..\amx\opcode"
 #include "..\amx\stack_trace"
@@ -176,7 +176,7 @@ forward Alloc:calloc(size);
 // Functions to access the data on the heap.
 #include "y_malloc/funcs"
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_malloc/tests"
 #endif
 
