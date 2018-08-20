@@ -1,3 +1,40 @@
+# y_malloc
+
+Provides "malloc" and "free", to dynamically allocate memory at run-time.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_malloc-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_malloc)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Coding/y_malloc
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Coding/y_malloc>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Coding/y_malloc/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Coding/y_malloc/features.md) - More features and examples.
+* [FAQs](YSI-Coding/y_malloc/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Coding/y_malloc/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Coding/y_malloc/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_malloc
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_malloc-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_malloc)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Coding/y_malloc
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Coding/y_malloc>
-```
-
-## Usage
-
-[Click Here] (YSI-Coding/y_malloc.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
